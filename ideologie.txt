@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US" >
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="csssheet.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title> Ideologii Politice  </title>
+	  <link rel="shortcut icon" type="image/x-icon" href="https://cdn.iconscout.com/icon/premium/png-256-thumb/parliament-house-1-766312.png" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+	</head>
+	
+	<body>
+	<div class="container">
+	<div class="menu">
+	       <ul> 
+		   <li class="logo"><img src="2.png">  </li>
+		   <li class="active">Acasa</li>
+		   <li>Ideologii</li>
+		   <li>Partide</li>
+		   <li>Despre</li>
+		   <li><a class="signup-btn" href="#"><span><b>PoliticalTest</b></span></a></li>
+	       </ul>
+    </div>
+	<div class="banner">
+	   <div class="app-text">
+	          <h1> Lorem ipsum dolores sincero <br> Curabitur mattis ante sapien </h1>
+			  <p> Donec lobortis ex eget tempus accumsan. Donec non sem ut felis ultrices posuere. Pellentesque nec sagittis diam. Sed erat lectus, sollicitudin eget vulputate sed, lacinia vitae ex. In semper consequat eros,
+			  molestie ornare ipsum gravida nec. Praesent porttitor massa erat, non ornare risus dignissim vel. </p>
+	   <div class="play-btn">
+	   <div class="play-btn-inner">
+	   <i class="fa fa-play"></i>	 
+<br>
+<br>	 </div>
+	   </div>  
+	   <h3 style="margin-left:20px;display:inline-flex;"> Afla Ideologia ta!</h3>
+	   
+	   
+	   </div>
+	   <div class="app-picture">
+	   <img src="https://cdn.pixabay.com/photo/2012/04/13/13/01/capitol-32309_960_720.png"> </img>
+	   
+	   
+	   </div>
+	   </div>
+	
+    </div>
+	</body>
+		
+</html>

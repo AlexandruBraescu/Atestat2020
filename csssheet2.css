@@ -1,0 +1,90 @@
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 16%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #42455a; 
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 4px 4px 4px 4px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #4d79ff;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.logo{
+	width: 70px;
+	margin-top: -28px;
+	margin-right: 17px;
+	filter: brightness(0) invert(1);	
+}
+.logo2 {
+	width: 70px;
+	margin-top: 20px;
+	margin-left: 6%;
+}
+.sidenav ul{
+	display: inline-flex; 
+	margin:44px;
+}
+.sidenav ul li{
+	margin:0 20px;
+	list-style: none;
+	color: #b2b1b1;
+	cursor:pointer;	
+}
+.sidenav a:link, a:visited {
+	  padding: 12px 23px;
+}
+.sidenav a.fafalink:link, a.fafalink:visited {
+	  padding: 0px;
+	  opacity:79%;
+}
+a.active {	
+	color:  #1cab8c;	
+	  font-weight: bold; 
+	font-size:18px;
+}
+.signup-btn {
+	top:40px;
+	right:40px;
+	position:absolute;
+	text-decoration:none;
+	color:black;
+	border: 4px solid transparent;
+	border-radius:20px;
+	background-image: linear-gradient(#fff,#66b3ff),radial-gradient(circle at top left,#002080,#19d7f8);
+	background-origin:border-box;
+	background-clip: content-box,border-box;
+	opacity:80%;
+}
+.signup-btn span{
+	display: block;
+	padding: 6px 18px;
+}
+}a:hover {
+  color: #4d79ff;
+}
+ a {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US" >
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="csssheet.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title> Ideologii Politice  </title>
+	  <link rel="shortcut icon" type="image/x-icon" href="https://cdn.iconscout.com/icon/premium/png-256-thumb/parliament-house-1-766312.png" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+		<script type="text/javascript" src="http://code.jquery.com/jquery.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        var
+          images = "#gallery > img" 
+        , interval = 4000           
+        , index = 0                 
+        , count = $(images).length  
+        , handle = setInterval(function() {
+            $(images + ":eq(" + index + ")").fadeOut('slow');
+            if (++index === count) index = 0;
+            $(images + ":eq(" + index + ")").fadeIn('slow');
+          }
+          , interval
+        ) 
+        , stop = function(){
+            clearInterval(handle);
+        };
+      });
+    </script>
+	</head>
+	<body>
+	<div class="imagedeco2">
+	  <img src="xs2.png"></img>
+	  </div>
+	<div class="container">   
+	<div class="menu"> 
+	       <ul> 
+		   <li class="logo"><img src="2.png">  </li> 
+		   <li ><a class="active"><i class="fa fa-universal-access" style="font-size:22px;margin-right:4px;"></i>Acasa</a></li>
+		   <li ><a href="ideologie.html"><i class="fa fa-flag-o" style="font-size:20px;margin-right:4px;"></i>Ideologii</a></li>
+		   <li><a href="partide.html"><i class="fa fa-bank" style="font-size:20px;margin-right:4px;"></i>Partide</a></li>
+		   <li><a href="despre.html"><i class="fa fa-cogs" style="font-size:20px;margin-right:4px;"></i>Despre</a></li>
+		   <li class="signup-btn" href="#"><span><b><a class="fafalink" href="test.html">PoliticalTest</a></b></span></li>
+	       </ul>
+    </div>
+	<div class="banner">
+	   <div class="app-text">
+	          <h1> Ideologia ta politica </h1>
+			  <p> Atunci când se apropie alegerile este uneori greu să te decizi cu cine să votezi , însă unul dintre cei mai importanți factori care trebuie luați în considerare este ideologia candidatului/partidului <br> 
+			  anume , care este viziunea acestuia din numeroase puncte de vedere și cum se încadrează viziunea aceasta cu multitudinea de alte viziuni enunțate de teoreticieni<br>
+              Următorul test o să te ajute să vezi unde te încadrezi în spectrul ideologic!			  </p>
+	   <div class="blink_me">
+	   <div class="play-btn" >
+	   <div class="play-btn-inner">
+	   <a href="test.html" class="fafalink"><i class="fa fa-play" ></i></a>	 
+<br>
+<br>	 </div>
+	   </div>   
+	   <h3 style="margin-left:20px;display:inline-flex;font-weight:bold;"> <a class="fafalink" href="test.html">Afla Ideologia ta!</a></h3> 
+	  </div>
+	  </div>
+	   <div  id="gallery" class="app-picture">
+	   <img style="position:fixed;" src="https://cdn.pixabay.com/photo/2012/04/13/13/01/capitol-32309_960_720.png"> </img>
+	   <img style="position:fixed;" class="" src="https://cdn.pixabay.com/photo/2014/04/02/14/05/palace-306126_960_720.png"> </img>
+	   <img style="position:fixed;" class="" src="https://cdn.pixabay.com/photo/2012/04/13/13/02/capitol-32310_960_720.png"> </img>
+	   </div>
+	   </div>
+    </div> 
+	<div class="imagedeco">
+	  <img src="xs.png"></img>
+	  </div>
+	</body>
+		</html>

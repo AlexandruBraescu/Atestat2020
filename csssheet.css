@@ -1,0 +1,201 @@
+html{
+	height:300px;	
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.container {
+	height:155px;
+	width:100%;
+	background-color: #42455a; 
+	position:absolute;
+}
+.menu ul{
+	display: inline-flex; 
+	margin:50px;
+}
+.menu ul li{
+	margin:0 20px;
+	list-style: none;
+	color: #b2b1b1;
+	cursor:pointer;	
+}
+.logo img{
+	width: 70px;
+	margin-top: -28px;
+	margin-right: 17px;
+	filter: brightness(0) invert(1);
+}
+.signup-btn {
+	top:40px;
+	right:40px;
+	position:absolute;
+	text-decoration:none;
+	color:black;
+	border: 4px solid transparent;
+	border-radius:20px;
+	background-image: linear-gradient(#fff,#66b3ff),radial-gradient(circle at top left,#002080,#19d7f8);
+	background-origin:border-box;
+	background-clip: content-box,border-box;
+	opacity:80%;
+}
+.signup-btn span{
+	display: block;
+	padding: 6px 18px;
+}
+.banner {
+	width: 80%;
+	height: 70%;
+	top: 250px; 
+	left: 130px;
+	position: absolute;
+	color: black;
+}
+.app-text {
+	width: 50%;
+	float: left;
+}
+.app-text h1 {
+	font-size: 43px;
+	width: 640px;
+	position: relative;
+	margin-left: 40px;
+}
+.app-text p {
+	width: 650px;
+	font-size: 15px;
+	margin: 30px 0 30px 40px;
+	line-height: 25px;
+	color: #919191;	
+}
+.app-picture {
+	width: 50%;
+	float: right;
+}
+.play-btn {
+	margin-left:40px;
+	display:inline-flex;	
+}
+.play-btn-inner {
+	height:60px;
+	width:60px;
+	border: 4px solid transparent;
+	border-radius:50%;
+	background-image: linear-gradient(#fff,#fff),radial-gradient(circle at top left,blue, #b30000);
+	background-origin:border-box;
+	background-clip: content-box,border-box;
+	text-align:center	
+}
+.play-btn-inner .fa{
+   padding: 19px;
+   font-size: 22px;
+   margin-left:4px;
+   cursor:pointer;   
+}
+
+a:link, a:visited {
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.menu a:link, a:visited {
+	
+	
+	  padding: 14px 25px;
+}
+.menu a.fafalink:link, a.fafalink:visited {
+	
+	
+	  padding: 0px;
+	  opacity:79%;
+}
+
+a:hover, a:active {
+  color: #4d79ff;
+}
+
+a.active {
+	
+	color:  #1cab8c;	
+	  font-weight: bold;
+	font-size:18px;
+}
+a.signup-btn {
+	text-decoration:none;
+	
+}
+
+.fade {
+	opacity:0%;
+	 transition-duration: 2s;	
+}
+.fade:hover {
+	opacity:100%;
+	
+}
+a.fafalink{
+	color: #cc0000;
+}
+
+
+.blink_me {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.imagedeco img{
+	opacity:80%;
+	position:fixed;
+	top: 62%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  width:30%; 
+
+}
+.imagedeco2 img{
+	opacity:80%;
+	float:right;
+	margin-top:8%;
+    width:10%;
+ 
+}
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .container, .main, .right {
+    width:100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
